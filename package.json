@@ -1,10 +1,10 @@
 {
-  "name": "periodicjs",
+  "name": "@digifi/periodicjs",
   "description": "Periodic is a rapid enterprise application framework for data driven web and mobile applications.",
-  "version": "10.70.92",
+  "version": "0.0.1",
   "main": "index.js",
   "engines": {
-    "node": "^8.x"
+    "node": "^10.x"
   },
   "bin": {
     "periodicjs": "./bin/index.js"
@@ -47,7 +47,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/repetere/periodicjs.git"
+    "url": "git://github.com/digifi-io/periodicjs.git"
   },
   "license": "MIT",
   "scripts": {
@@ -55,6 +55,7 @@
     "test": "mocha -R spec --recursive"
   },
   "dependencies": {
+    "@digifi/app-config-loader": "^3.2.2",
     "@yawetse/socket.io-adapter-mongo": "^0.1.8",
     "babel-polyfill": "^6.23.0",
     "bcrypt": "^3.0.4",
